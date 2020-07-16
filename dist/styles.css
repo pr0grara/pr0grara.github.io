@@ -1,0 +1,86 @@
+body {
+  background-image: url('../images/a\ little\ milk.jpg');
+  /* background-image: url('https://www.freevector.com/color-splash-vector-background#'); */
+  background-size: 100%;
+  background-color: rgb(197, 197, 247);
+}
+
+h2 {
+  display: inline-block;
+  font-family: sans-serif;
+  color: rgb(240, 233, 233);
+  margin-bottom: 2em;
+  padding: 3px 15px 3px 15px;
+  border-radius: 4px;
+  background-color: rgba(119, 183, 235, .75);
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.7);
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: lightgray;
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.7);
+}
+
+#main-interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 220px 30px 120px 20px;
+  padding: 0 40px 0 40px;
+  background-color: rgba(226, 237, 247, 0.75);
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.7);
+  border: lightgray;
+  border-radius: 4px;
+}
+
+#interface {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(119, 183, 235, .75);
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.7);
+  border: lightgray;
+  border-radius: 4px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(240, 233, 233);
+}
+
+.upload label {
+  margin-bottom: 10px;
+}
+
+.play-button {
+  height: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 75px;
+  border: solid black 1px;
+  padding: 1em;
+  background-color: rgba(119, 183, 235, .75);
+}
+
+footer :nth-child(2){
+  margin-left: 1em;
+  margin-right: 1em;
+}
