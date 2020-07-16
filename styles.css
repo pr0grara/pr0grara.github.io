@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/a\ little\ milk.jpg');
+  background-image: url('./images/a\ little\ milk.jpg');
   /* background-image: url('https://www.freevector.com/color-splash-vector-background#'); */
   background-size: 100%;
   background-color: rgb(197, 197, 247);
